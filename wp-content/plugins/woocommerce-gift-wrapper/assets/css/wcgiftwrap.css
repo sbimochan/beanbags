@@ -1,0 +1,19 @@
+.wc-giftwrap{clear:both;padding-top:1em}
+.wc_giftwrap_notes_container{clear:both;display:block;margin:1em 0 0 0}
+table.cart .wc-giftwrap img {margin-top:.5em;width:auto}
+.wc-giftwrap p.giftwrap_header{margin:1em 0 0 0;}
+.giftwrap_header a{cursor:pointer}
+.giftwrap_products{margin-bottom:2em}
+.type-page .wc-giftwrap ul,
+#left-area ul.giftwrap_ul,
+.entry-content ul.giftwrap_ul{display:inline-block;list-style:none;margin:1em 0 0 0}
+.entry ul.giftwrap_ul li{list-style:none}
+.wc-giftwrap li{float:left;font-size:.75em;margin-right:3em}
+.woocommerce table.cart td.actions .coupon .wc-giftwrap label,
+.woocommerce-page table.cart td.actions .wc-giftwrap .coupon label,
+.woocommerce-page #content table.cart td.actions .coupon .wc-giftwrap label,
+table.cart td.actions .coupon .wc-giftwrap label{display:inline;margin:0 1em 0 0}
+.wc-giftwrap textarea{box-sizing:border-box;display:block;width:100%}
+.wc-giftwrap .amount:before{content:"- "}
+table.cart .coupon .wc-giftwrap .button,
+.woocommerce .wc-giftwrap button.button{margin:1em 0 0 0}

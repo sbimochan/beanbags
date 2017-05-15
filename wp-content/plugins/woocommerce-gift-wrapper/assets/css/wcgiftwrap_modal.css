@@ -1,0 +1,34 @@
+.wc-giftwrap{clear:both}
+.giftwrap_products{margin-bottom:2em}
+.woocommerce-page table.cart td.actions #giftwrap_modal,
+.woocommerce table.cart td.actions #giftwrap_modal{text-align:left}
+.wc_giftwrap_notes_container{clear:both;margin:1em 0 0 0}
+table.cart .wc-giftwrap img{width:auto;margin-top:.5em}
+.wc-giftwrap p.giftwrap_header{margin:1em 0 0 0}
+.giftwrap_header a{cursor:pointer}
+ul.giftwrap_ul,
+.type-page .wc-giftwrap ul,
+#left-area ul.giftwrap_ul,
+.entry-content ul.giftwrap_ul{margin:1em 0;padding:0;list-style:none;display:inline-block}
+ul.giftwrap_ul li,.entry ul.giftwrap_ul li{float:left;list-style:none}
+ul.giftwrap_ul li:not(first-of-type){margin:1em 3em 0 0}
+.wc-giftwrap input[type="radio"]{vertical-align:middle}
+.giftwrap_li .giftwrap_thumb,
+.wc-giftwrap .giftwrap_thumb{margin:1em 0 0 0}
+table.cart td.actions .coupon .wc-giftwrap li label,
+.woocommerce table.cart td.actions .coupon .wc_giftwrap_notes_container label,
+.woocommerce table.cart td.actions .coupon .wc-giftwrap label,
+.woocommerce-page #content table.cart td.actions .coupon .wc-giftwrap label,
+.woocommerce-page table.cart td.actions .coupon .wc-giftwrap label{display:inline;margin-left:.5em}
+.wc_giftwrap_notes_container label,
+.woocommerce table.cart td.actions .coupon .wc_giftwrap_notes_container label{display:block;margin-left:0}
+.wc-giftwrap textarea{display:block;width:100%;box-sizing:border-box}
+.modal-open .wc_giftwrap_notes_container textarea{width:100%}
+.wc-giftwrap .amount:before{content:"- "}
+
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.modal-open{overflow:hidden}.wc-giftwrap .modal{display:none;overflow:hidden;position:fixed;top:0;right:0;bottom:0;left:0;z-index:999999;-webkit-overflow-scrolling:touch;outline:0}.modal-open .wc-giftwrap .modal{overflow-x:hidden;overflow-y:auto}.wc-giftwrap .modal-dialog{position:relative;width:auto;margin:10px}.wc-giftwrap .modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,0.2);border-radius:6px;-webkit-box-shadow:0 3px 9px rgba(0,0,0,0.5);box-shadow:0 3px 9px rgba(0,0,0,0.5);-webkit-background-clip:padding-box;background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;background-color:#000}.wc-giftwrap .modal-header{padding:15px;border-bottom:1px solid #e5e5e5}.modal-header .close{margin-top:-2px}.wc-giftwrap .modal-title{margin:0;line-height:1.42857143}.wc-giftwrap .modal-body{position:relative;padding:15px}.wc-giftwrap .modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.wc-giftwrap .modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.wc-giftwrap .modal-footer .btn-group .btn+.btn{margin-left:-1px}.wc-giftwrap .modal-footer .btn-block+.btn-block{margin-left:0}.wc-giftwrap .modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}@media (min-width:768px){.wc-giftwrap .modal-dialog{width:600px;margin:30px auto}.wc-giftwrap .modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,0.5);box-shadow:0 5px 15px rgba(0,0,0,0.5)}}.wc-giftwrap .modal-header:before,.wc-giftwrap .modal-header:after,.wc-giftwrap .modal-footer:before,.wc-giftwrap .modal-footer:after{content:" ";display:table}.wc-giftwrap .modal-header:after,.wc-giftwrap .modal-footer:after{clear:both}

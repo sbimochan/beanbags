@@ -1,0 +1,159 @@
+01-25-2017 @ 08:56:11 - Info: Begin processing payment for order 73 for the amount of 10500
+01-25-2017 @ 08:56:11 - charges request: Array
+(
+    [currency] => npr
+    [amount] => 1050000
+    [description] => Bean Bags - Order 73
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19fhBRCAC9vd86YCaJKJSymC
+)
+
+01-25-2017 @ 08:56:13 - Processing response: stdClass Object
+(
+    [id] => ch_19fhBkCAC9vd86YCeSSFYz8T
+    [object] => charge
+    [amount] => 1050000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19fhBkCAC9vd86YCT20eDT7N
+            [object] => balance_transaction
+            [amount] => 9430
+            [available_on] => 1485907200
+            [created] => 1485313872
+            [currency] => usd
+            [description] => Bean Bags - Order 73
+            [fee] => 303
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 303
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 9127
+            [source] => ch_19fhBkCAC9vd86YCeSSFYz8T
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19fhBkCAC9vd86YCeSSFYz8T
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1485313872
+    [currency] => npr
+    [customer] => 
+    [description] => Bean Bags - Order 73
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19fhBkCAC9vd86YCeSSFYz8T/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19fhBRCAC9vd86YC5CoI2bPT
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 9
+            [exp_year] => 2018
+            [fingerprint] => vkf7ztJPTrRMMtbm
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => bmochan@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+01-25-2017 @ 08:56:16 - Success: Stripe charge complete (Charge ID: ch_19fhBkCAC9vd86YCeSSFYz8T)
+01-25-2017 @ 17:36:07 - customers request: Array
+(
+    [email] => bmochan@gmail.com
+    [description] => Sammy Shrestha
+)
+
+01-25-2017 @ 17:36:11 - customers/cus_9zow8iQTwuPqzA/sources request: Array
+(
+    [source] => tok_19fpIqCAC9vd86YCdOYHNupS
+)
+
+01-25-2017 @ 17:36:13 - customers/cus_9zow8iQTwuPqzA request: Array
+(
+    [default_source] => card_19fpIqCAC9vd86YCtV5eD7WQ
+)
+

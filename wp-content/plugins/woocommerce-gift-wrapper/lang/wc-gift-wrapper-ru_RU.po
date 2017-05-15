@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Gift Wrapper\n"
+"POT-Creation-Date: 2017-01-03 14:11-0800\n"
+"PO-Revision-Date: 2017-01-03 14:12-0800\n"
+"Last-Translator: Alexander Balya <mail@webkit.pro>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-gift-wrapper.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: woocommerce-gift-wrapper.php:141
+msgid "Settings"
+msgstr "Настройки"
+
+#: woocommerce-gift-wrapper.php:154
+msgid "Gift Wrapping"
+msgstr "Подарочная упаковка"
+
+#: woocommerce-gift-wrapper.php:185
+msgid "Gift Wrapping Options"
+msgstr "Настройки Подарочной упаковки"
+
+#: woocommerce-gift-wrapper.php:187
+#, php-format
+msgid ""
+"<strong>1.</strong> Start by <a href=\"%s\" target=\"_blank\">adding at "
+"least one product</a> called \"Gift Wrapping\" or something similar.<br /"
+"><strong>2.</strong> Create a unique product category for this/these gift "
+"wrapping product(s), and add them to this category.<br /><strong>3.</strong> "
+"Then consider the options below."
+msgstr ""
+"<strong>1.</strong> Начните с <a href=\"%s\" target=\"_blank\">добавления "
+"хотябы одного Товара</a> с названием \"Подарочная упаковка\" или что-то "
+"вроде того.<br />\n"
+"<strong>2.</strong> Создайте отдельную категорию для Товаров с Подарочной "
+"упаковкой и добавьте их в эту категорию.<br />\n"
+"<strong>3.</strong> После этого переходите к настройкам ниже."
+
+#: woocommerce-gift-wrapper.php:192
+msgid "Where to Show Gift Wrapping"
+msgstr "Где показывать блок добавления Подарочной упаковки"
+
+#: woocommerce-gift-wrapper.php:193
+msgid ""
+"Choose where to show gift wrap options to the customer on the cart page. You "
+"may choose more than one."
+msgstr ""
+
+#: woocommerce-gift-wrapper.php:197
+msgid "Under Coupon Field in Cart"
+msgstr "Под полем ввода купона в Корзине"
+
+#: woocommerce-gift-wrapper.php:198
+msgid "Above Totals Field in Cart"
+msgstr "Перед Итогом в Корзине"
+
+#: woocommerce-gift-wrapper.php:199
+msgid "Before Checkout"
+msgstr "Перед формой оформления заказа"
+
+#: woocommerce-gift-wrapper.php:206
+msgid "Gift Wrap Category"
+msgstr "Категория товаров Подарочной упаковки"
+
+#: woocommerce-gift-wrapper.php:207
+msgid "Define the category which holds your gift wrap product(s)."
+msgstr "Выберите Категорию, в которой находятся ваши Подарочные упаковки."
+
+#: woocommerce-gift-wrapper.php:214
+msgid "Define a Category"
+msgstr "Определить Категорию"
+
+#: woocommerce-gift-wrapper.php:220
+msgid "Show Gift Wrap Thumbs in Cart"
+msgstr "Показывать миниатюры"
+
+#: woocommerce-gift-wrapper.php:221
+msgid "Should gift wrap product thumbnail images be visible in the cart?"
+msgstr "Должны ли миниатюры Подарочной упаковки отображаться в Корзине?"
+
+#: woocommerce-gift-wrapper.php:225 woocommerce-gift-wrapper.php:238
+#: woocommerce-gift-wrapper.php:260
+msgid "Yes"
+msgstr "Да"
+
+#: woocommerce-gift-wrapper.php:226 woocommerce-gift-wrapper.php:239
+#: woocommerce-gift-wrapper.php:261
+msgid "No"
+msgstr "Нет"
+
+#: woocommerce-gift-wrapper.php:233
+msgid "Allow more than one gift wrap product in cart?"
+msgstr "Разрешить добавлять более одной Подарочной упаковки?"
+
+#: woocommerce-gift-wrapper.php:234
+msgid ""
+"If yes, customers can buy more than one gift wrapping product in one order."
+msgstr ""
+"Если да, покупатели смогут добавить к заказу две или более Подарочных "
+"упаковки."
+
+#: woocommerce-gift-wrapper.php:246
+msgid "Gift Wrap Cart Header"
+msgstr "Заголовок блока добавления Подарочной упаковки"
+
+#: woocommerce-gift-wrapper.php:247
+msgid "The text you would like to use to introduce your gift wrap offering."
+msgstr ""
+"Текст, которым вы можете представить ваше предложение добавления Подарочной "
+"упаковки."
+
+#: woocommerce-gift-wrapper.php:249
+msgid "Add gift wrapping?"
+msgstr "Добавить подарочную упаковку?"
+
+#: woocommerce-gift-wrapper.php:255
+msgid "Should Gift Wrap option open in pop-up?"
+msgstr "Открывать выбор Подарочной упаковки в лайтбоксе?"
+
+#: woocommerce-gift-wrapper.php:256
+msgid ""
+"If checked, there will be a link (\"header\") in the cart, which when "
+"clicked will open a window for customers to choose gift wrapping options. It "
+"can be styled and might be a nicer option for your site. NOTE: modal does "
+"not work with the Avada theme."
+msgstr ""
+
+#: woocommerce-gift-wrapper.php:268
+msgid "Gift Wrap Details"
+msgstr "Описание Подарочной упаковки"
+
+#: woocommerce-gift-wrapper.php:269
+msgid "The text to give any details or conditions of your gift wrap offering."
+msgstr "Текстовое описание подробностей предоставления Подарочной упаковки."
+
+#: woocommerce-gift-wrapper.php:277
+msgid "Gift Wrap Textarea Label"
+msgstr "Подпись к полю добавления послания"
+
+#: woocommerce-gift-wrapper.php:278
+msgid "The text you would like to use for the textarea label"
+msgstr "Текст для обозначения поля ввода подписи к Подарочной упаковке"
+
+#: woocommerce-gift-wrapper.php:280
+msgid "Add Gift Wrap Message:"
+msgstr "Добавить сообщение к Подарочной упаковке: "
+
+#: woocommerce-gift-wrapper.php:286
+msgid "Textarea Character Limit"
+msgstr "Textarea символов"
+
+#: woocommerce-gift-wrapper.php:287
+msgid ""
+"How many characters your customer can type when creating their own note for "
+"giftwrapping. Defaults to 1000 characters; lower this number if you want "
+"more brief comments from your customers."
+msgstr ""
+"Сколько символов клиент может ввести при создании собственной записки для "
+"giftwrapping. По умолчанию 1000 символов; уменьшить это число, если вы "
+"хотите более краткие комментарии от клиентов."
+
+#: woocommerce-gift-wrapper.php:289
+msgid "1000"
+msgstr "1000"
+
+#: woocommerce-gift-wrapper.php:294
+msgid "Gift Wrap Button Text"
+msgstr "Текст на кнопке добавления Подарочной упаковки"
+
+#: woocommerce-gift-wrapper.php:295
+msgid "The text for the add to cart button"
+msgstr "Текст для кнопки добавления в корзину"
+
+#: woocommerce-gift-wrapper.php:297
+msgid "Add Gift Wrap to Order"
+msgstr "Добавить подарочную упаковку к заказу"
+
+#: woocommerce-gift-wrapper.php:442 woocommerce-gift-wrapper.php:454
+msgid "Gift Wrap Note"
+msgstr "Заметка на Подарочной упаковке"
+
+#: woocommerce-gift-wrapper.php:509
+msgid "Cancel"
+msgstr "Отмена"
+
+#: woocommerce-gift-wrapper.php:662
+msgid "Are you sure you want to replace the gift wrap in your cart?"
+msgstr "Вы уверены, что хотите заменить Подарочную упаковку в Корзине?"
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce Gift Wrapper"
+msgstr "Woocommerce Подарочная упаковка"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.little-package.com/woocommerce-gift-wrapper"
+msgstr "http://www.little-package.com/woocommerce-gift-wrapper"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin shows gift wrap options on the WooCommerce cart and/or checkout "
+"page, and adds gift wrapping to the order"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Caroline Paquette"
+msgstr "Caroline Paquette"
+
+#~ msgid ""
+#~ "Choose where to show gift wrap options to the customer on the cart page."
+#~ msgstr ""
+#~ "Выберите, в каком месте показывать блок выбора Подарочной упаковки в "
+#~ "Корзине."
+
+#~ msgid ""
+#~ "If checked, there will be a link (\"header\") in the cart, which when "
+#~ "clicked will open a window for customers to choose gift wrapping options. "
+#~ "It can be styled and might be a nicer option for your site."
+#~ msgstr ""
+#~ "Если да, выбор Подарочной упаковки будет открываться во всплывающем окне."
+
+#~ msgid ""
+#~ "This plugin shows gift wrap options on the WooCommerce cart page, and "
+#~ "adds gift wrapping to the order"
+#~ msgstr ""
+#~ "Этот плагин отображает блок выбора Подарочной упаковки в Корзине, чтобы "
+#~ "посетители могли быстро добавить её к заказу."
